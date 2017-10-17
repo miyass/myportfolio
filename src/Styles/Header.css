@@ -1,0 +1,14 @@
+header {
+  height: 20%;
+}
+
+.menu {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.menuList {
+  display: inline-block;
+  margin-right: 100px;
+  color: white;
+}

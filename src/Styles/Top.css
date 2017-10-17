@@ -1,0 +1,16 @@
+.top {
+  margin-left: 15%;
+}
+
+.title {
+  /*text-align: center;*/
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 53px;
+}
+
+.subTitle {
+  /*text-align: center;*/
+  color: white;
+}
