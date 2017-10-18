@@ -21,9 +21,14 @@ li {
   display: table-cell;
   width: 400px;
   height: 100%;
+  padding-left: 80px;
   /*background-color: #42C5D8;*/
 }
 
 .subList {
   margin-top: 15px;
+}
+
+.subList::before {
+  content: "--"
 }

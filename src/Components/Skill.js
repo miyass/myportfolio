@@ -47,7 +47,7 @@ class Skill extends Component {
           <div className="skillList">
             <h2>Design</h2>
             <ul>
-              <li>
+              <li className="subList">
                 Adobe
                 <ul>
                   <li className="subList">Illustrator</li>

@@ -1,0 +1,52 @@
+.career {
+  height: 100%;
+  color: white;
+  margin-left: 10%;
+  /*background-color: white;*/
+}
+
+.careerTitle {
+  font-size: 32px;
+}
+
+.careerContent {
+  height: 100%;
+}
+
+.careerSubTitle {
+  margin-left: 100px;
+}
+
+.careerList {
+  /*display: inline-block;*/
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.list {
+  margin-top: 50px;
+  font-size: 32px;
+}
+
+.more {
+  padding: 10px 5px 10px 5px;
+  width: 100px;
+  border: 2px solid #42C5D8;
+  text-align: center;
+  /*background-color: white;
+  opacity: 0.1;*/
+}
+
+/*.litContent {
+  display: table-cell;
+  background-color: red;
+  height: 400px;
+  width: 300px;
+}
+
+.kintoneContent {
+  display: table-cell;
+  background-color: blue;
+  height: 400px;
+  width: 300px;
+}*/
