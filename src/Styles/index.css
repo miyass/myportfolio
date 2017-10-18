@@ -1,10 +1,18 @@
+html{
+  /*スクロール固定*/
+  overflow: hidden;
+}
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Candal', sans-serif;
+  /*スクロール固定*/
+  overflow: hidden;
 }
 
-p {
+p,a {
   font-family: 'Rubik';
   color: white;
 }

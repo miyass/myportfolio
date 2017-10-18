@@ -1,0 +1,18 @@
+.profile {
+  height: 100%;
+  color: white;
+}
+
+.profileTitle {
+  font-size: 32px;
+  margin-left: 10%;
+}
+
+.profileSubTitle {
+  font-size: 32px;
+  text-align: center;
+}
+
+.profileContent {
+  margin-left: 10%;
+}

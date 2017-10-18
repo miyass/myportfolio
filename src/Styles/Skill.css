@@ -1,0 +1,29 @@
+li {
+  list-style-type: none;
+}
+
+.skill {
+  height: 100%;
+  color: white;
+  margin-left: 10%;
+}
+
+.skillTitle {
+  font-size: 32px;
+}
+
+.skillContent {
+
+}
+
+.skillList {
+  /*マージンはなくなるので、注意！！*/
+  display: table-cell;
+  width: 400px;
+  height: 100%;
+  /*background-color: #42C5D8;*/
+}
+
+.subList {
+  margin-top: 15px;
+}

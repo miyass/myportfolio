@@ -8,10 +8,10 @@ class Header extends Component {
       <header>
         <nav>
           <ul className="menu">
-            <li className="menuList"><Link to="/">Home</Link></li>
-            <li className="menuList">Profile</li>
-            <li className="menuList">Skill</li>
-            <li className="menuList">Career</li>
+            <li className="menuList"><Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
+            <li className="menuList"><Link to="/profile" style={{ textDecoration: 'none', color: 'white' }}>Profile</Link></li>
+            <li className="menuList"><Link to='/skill' style={{ textDecoration: 'none', color: 'white' }}>Skill</Link></li>
+            <li className="menuList"><Link to="/career" style={{ textDecoration: 'none', color: 'white' }}>Career</Link></li>
             <li className="menuList">Contact</li>
           </ul>
         </nav>

@@ -1,5 +1,10 @@
 header {
   height: 20%;
+  padding-top: 50px;
+
+  /*デフォルトの高さに修正*/
+  margin-top: -50px;
+
 }
 
 .menu {

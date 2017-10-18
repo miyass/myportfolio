@@ -4,7 +4,11 @@ import './Styles/Main.css';
 
 import Canvas from './Components/Canvas';
 import Header from './Components/Header';
+
 import Top from './Components/Top';
+import Profile from './Components/Profile';
+import Skill from './Components/Skill';
+import Career from './Components/Career';
 
 
 class Main extends Component {
@@ -17,6 +21,9 @@ class Main extends Component {
             <Header />
             <section>
               <Route exact path="/" component={Top} />
+              <Route path="/profile" component={Profile} />
+              <Route path="/skill" component={Skill} />
+              <Route path="/career" component={Career} />
             </section>
           </div>
         </div>
