@@ -9,6 +9,8 @@ import Top from './Components/Top';
 import Profile from './Components/Profile';
 import Skill from './Components/Skill';
 import Career from './Components/Career';
+import CareerLit from './Components/CareerLit';
+import CareerKintone from './Components/CareerKintone';
 
 
 class Main extends Component {
@@ -24,6 +26,8 @@ class Main extends Component {
               <Route path="/profile" component={Profile} />
               <Route path="/skill" component={Skill} />
               <Route path="/career" component={Career} />
+              <Route path="/lit" component={CareerLit} />
+              <Route path="/kintone" component={CareerKintone} />
             </section>
           </div>
         </div>

@@ -22,13 +22,22 @@ li {
   width: 400px;
   height: 100%;
   padding-left: 80px;
-  /*background-color: #42C5D8;*/
 }
 
 .subList {
   margin-top: 15px;
 }
 
+.listName {
+  font-family: 'Candal', sans-serif;
+  color: #CC146F;
+}
+
+.subDesignList {
+  margin-top: 15px;
+}
+
 .subList::before {
-  content: "--"
+  content: "--";
+  color: #CC146F;
 }

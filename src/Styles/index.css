@@ -16,3 +16,7 @@ p,a {
   font-family: 'Rubik';
   color: white;
 }
+
+h1, h2, h3 {
+  color: #42C5D8;
+}

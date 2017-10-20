@@ -11,9 +11,11 @@ class Skill extends Component {
           <div className="skillList">
             <h2>Programming</h2>
             <ul className="sub">
-              <li className="subList">HTML</li>
               <li className="subList">
-                CSS
+                <a className="listName">HTML</a>
+              </li>
+              <li className="subList">
+                <a className="listName">CSS</a>
                 <ul>
                   <li>Sass</li>
                   <li>SCSS</li>
@@ -21,7 +23,7 @@ class Skill extends Component {
                 </ul>
               </li>
               <li className="subList">
-                Javascript
+                <a className="listName">Javascript</a>
                 <ul>
                   <li>jQuery</li>
                   <li>React</li>
@@ -29,32 +31,36 @@ class Skill extends Component {
                 </ul>
               </li>
               <li className="subList">
-                Ruby
+                <a className="listName">Ruby</a>
                 <ul>
                   <li>Ruby on Rails</li>
                 </ul>
               </li>
               <li className="subList">
-                Java
+                <a className="listName">Java</a>
                 <ul>
                   <li>Minecraft Forge API</li>
-                  </ul>
-                </li>
-              <li className="subList">Swift</li>
-              <li className="subList">Unity</li>
+                </ul>
+              </li>
+              <li className="subList">
+                <a className="listName">Swift</a>
+              </li>
+              <li className="subList">
+                <a className="listName">Unity</a>
+              </li>
             </ul>
           </div>
           <div className="skillList">
             <h2>Design</h2>
             <ul>
               <li className="subList">
-                Adobe
+                <a className="listName">Adobe</a>
                 <ul>
-                  <li className="subList">Illustrator</li>
-                  <li className="subList">Photoshop</li>
-                  <li className="subList">Lightroom</li>
-                  <li className="subList">Premiere Pro</li>
-                  <li className="subList">After Effect</li>
+                  <li className="subDesignList">Illustrator</li>
+                  <li className="subDesignList">Photoshop</li>
+                  <li className="subDesignList">Lightroom</li>
+                  <li className="subDesignList">Premiere Pro</li>
+                  <li className="subDesignList">After Effect</li>
                 </ul>
               </li>
             </ul>

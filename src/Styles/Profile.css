@@ -15,4 +15,24 @@
 
 .profileContent {
   margin-left: 10%;
+  margin-top: 50px;
+}
+
+.profileText {
+  font-size: 20px;
+}
+
+.contactTitle {
+  /*font-size: 32px;*/
+  margin-left: 10%;
+}
+
+.contactList {
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.contactDetail {
+  display: inline-block;
+  padding-left: 30px;
 }

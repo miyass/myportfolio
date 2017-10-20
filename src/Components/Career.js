@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import '../Styles/Career.css';
 
@@ -12,10 +13,18 @@ class Career extends Component {
           <ul className="careerList">
             <li className="list lit">Life is Tech</li>
               <a>This company provide that teaching teenager how to make Game, Web Site….</a>
-              <p className="more">More?</p>
+              <p className="more">
+                <Link to="/lit" style={{ textDecoration: 'none', color: 'white' }}>
+                More?
+                </Link>
+              </p>
             <li className="list">kintone</li>
               <a>This campany makes groupware called kintone.</a>
-              <p className="more">More?</p>
+              <p className="more">
+                <Link to="/kintone" style={{ textDecoration: 'none', color: 'white' }}>
+                More?
+                </Link>
+              </p>
           </ul>
         </div>
       </div>

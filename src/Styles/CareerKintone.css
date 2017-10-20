@@ -1,0 +1,39 @@
+.career {
+  height: 100%;
+  color: white;
+  margin-left: 10%;
+  /*background-color: white;*/
+}
+
+.careerTitle {
+  font-size: 32px;
+}
+
+.kintoneContent {
+  height: 100%;
+}
+
+.kintoneSubTitle {
+  font-size: 32px;
+}
+
+.kintoneLeftContent {
+  display: table-cell;
+  width: 40%;
+}
+
+.kintoneRightContent {
+  position: relative;
+  display: table-cell;
+  padding-left: 100px;
+  width: 40%;
+}
+
+.kintoneLogo {
+  width: 400px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
