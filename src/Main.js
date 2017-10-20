@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { AnimatedSwitch } from 'react-router-transition';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './Styles/Main.css';
 
@@ -22,12 +23,18 @@ class Main extends Component {
           <div id="body">
             <Header />
             <section>
-              <Route exact path="/" component={Top} />
-              <Route path="/profile" component={Profile} />
-              <Route path="/skill" component={Skill} />
-              <Route path="/career" component={Career} />
-              <Route path="/lit" component={CareerLit} />
-              <Route path="/kintone" component={CareerKintone} />
+              <AnimatedSwitch
+                atEnter={{ opacity: 0 }}
+                atLeave={{ opacity: 1 }}
+                atActive={{ opacity: 1 }}
+              >
+                <Route exact path="/" component={Top} />
+                <Route path="/profile" component={Profile} />
+                <Route path="/skill" component={Skill} />
+                <Route path="/career" component={Career} />
+                <Route path="/lit" component={CareerLit} />
+                <Route path="/kintone" component={CareerKintone} />
+              </AnimatedSwitch>
             </section>
           </div>
         </div>
