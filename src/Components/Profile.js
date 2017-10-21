@@ -10,9 +10,9 @@ class Profile extends Component {
         <h1 className="profileSubTitle">I like ... Camera</h1>
         <div className="profileContent">
           <p className="profileText">
-          My name is Sohei Miyakura. I am a University student. My major is Marketing.<br />
-          I am interested in programming, especially Web design and Web Development.<br />
-          In Japan, I taught teenager IT technology as internship, such as Web programming, Game , Design.<br />
+          My name is Sohei Miyakura. I am a University student. My major is Marketing.
+          I am interested in programming, especially Web design and Web Development.
+          In Japan, I taught teenager IT technology as internship, such as Web programming, Game , Design.
           </p>
           <p className="profileText">
           I am studying abroad in USA to learn English and programming.<br />

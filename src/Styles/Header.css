@@ -4,16 +4,74 @@ header {
 
   /*デフォルトの高さに修正*/
   margin-top: -50px;
+}
+
+a, p {
+  font-family: 'Candal', sans-serif;
+}
+
+@media screen and (min-width: 961px) {
+  .menu {
+    margin-top: 80px;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+
+  .menuList1 {
+    display: inline-block;
+    margin-right: 100px;
+    color: white;
+  }
+
+  .menuList2 {
+    display: none;
+  }
+
+  .menuList:hover {
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+  .menu {
+    margin-top: 80px;
+    margin-left: 10%;
+    font-size: 19px;
+  }
+
+  .menuList1 {
+    display: inline-block;
+    margin-right: 70px;
+  }
+
+  .menuList2 {
+    display: none;
+  }
 
 }
 
-.menu {
-  margin-top: 50px;
-  margin-left: 10%;
-}
+@media screen and (max-width: 640px) {
+  .menu {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+  }
 
-.menuList {
-  display: inline-block;
-  margin-right: 100px;
-  color: white;
+  .menuList1 {
+    display: none;
+  }
+
+  .menuList2 {
+    display: inline-block;
+    margin-left: 50px;
+  }
+
+  .menuAddon {
+    margin-left: -50px;
+  }
+
+  .iconName {
+    margin-top: 0px;
+    font-size: 10px;
+    text-align: center;
+  }
 }
