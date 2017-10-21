@@ -9,7 +9,7 @@ class Skill extends Component {
         <h1 className="skillTitle">Skill</h1>
         <div className="skillContent">
           <div className="skillList">
-            <h2>Programming</h2>
+            <h2 className="skillSubTitle">Programming</h2>
             <ul className="sub">
               <li className="subList">
                 <a className="listName">HTML</a>
@@ -17,29 +17,29 @@ class Skill extends Component {
               <li className="subList">
                 <a className="listName">CSS</a>
                 <ul>
-                  <li>Sass</li>
-                  <li>SCSS</li>
-                  <li>BootStrap</li>
+                  <li className="subProgramList">Sass</li>
+                  <li className="subProgramList">SCSS</li>
+                  <li className="subProgramList">BootStrap</li>
                 </ul>
               </li>
               <li className="subList">
                 <a className="listName">Javascript</a>
                 <ul>
-                  <li>jQuery</li>
-                  <li>React</li>
-                  <li>kintone API</li>
+                  <li className="subProgramList">jQuery</li>
+                  <li className="subProgramList">React</li>
+                  <li className="subProgramList">kintone API</li>
                 </ul>
               </li>
               <li className="subList">
                 <a className="listName">Ruby</a>
                 <ul>
-                  <li>Ruby on Rails</li>
+                  <li className="subProgramList">Ruby on Rails</li>
                 </ul>
               </li>
               <li className="subList">
                 <a className="listName">Java</a>
                 <ul>
-                  <li>Minecraft Forge API</li>
+                  <li className="subProgramList">Minecraft Forge API</li>
                 </ul>
               </li>
               <li className="subList">
@@ -51,8 +51,8 @@ class Skill extends Component {
             </ul>
           </div>
           <div className="skillList">
-            <h2>Design</h2>
-            <ul>
+            <h2 className="skillSubTitle">Design</h2>
+            <ul className="sub">
               <li className="subList">
                 <a className="listName">Adobe</a>
                 <ul>

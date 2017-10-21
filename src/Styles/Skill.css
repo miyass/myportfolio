@@ -8,36 +8,125 @@ li {
   margin-left: 10%;
 }
 
-.skillTitle {
-  font-size: 32px;
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+  .skillTitle {
+    font-size: 32px;
+  }
+
+  .skillContent {
+  }
+
+  .skillList {
+    /*マージンはなくなるので、注意！！*/
+    display: table-cell;
+    width: 400px;
+    height: 100%;
+    padding-left: 80px;
+  }
+
+  .subList {
+    margin-top: 15px;
+  }
+
+  .listName {
+    font-family: 'Candal', sans-serif;
+    color: #CC146F;
+    font-size: 22px;
+  }
+
+  .subDesignList {
+    margin-top: 15px;
+  }
+
+  .subList::before {
+    content: "--";
+    color: #CC146F;
+  }
 }
 
-.skillContent {
+
+
+@media screen and (min-width: 961px) {
+  .skillTitle {
+    font-size: 32px;
+  }
+
+  .skillContent {
+
+  }
+
+  .skillList {
+    /*マージンはなくなるので、注意！！*/
+    display: table-cell;
+    width: 400px;
+    height: 100%;
+    padding-left: 80px;
+  }
+
+  .subList {
+    margin-top: 15px;
+  }
+
+  .listName {
+    font-family: 'Candal', sans-serif;
+    color: #CC146F;
+  }
+
+  .subDesignList {
+    margin-top: 15px;
+  }
+
+  .subList::before {
+    content: "--";
+    color: #CC146F;
+  }
 
 }
 
-.skillList {
-  /*マージンはなくなるので、注意！！*/
-  display: table-cell;
-  width: 400px;
-  height: 100%;
-  padding-left: 80px;
-}
+@media screen and (max-width: 640px) {
+  .skillTitle {
+    font-size: 25px;
+  }
 
-.subList {
-  margin-top: 15px;
-}
+  .skillContent {
+  }
+  .skillList {
+    /*マージンはなくなるので、注意！！*/
+    font-size: 16px;
+    display: table-cell;
+    /*width: 400px;
+    height: 100%;*/
+    padding-left: 5%;
+  }
 
-.listName {
-  font-family: 'Candal', sans-serif;
-  color: #CC146F;
-}
+  .skillSubTitle {
+    font-size: 16px;
+  }
 
-.subDesignList {
-  margin-top: 15px;
-}
+  .sub {
+    padding-left: 0px;
+  }
+  .subList {
+    margin-top: 15px;
+  }
 
-.subList::before {
-  content: "--";
-  color: #CC146F;
+  .listName {
+    font-family: 'Candal', sans-serif;
+    color: #CC146F;
+    font-size: 15px;
+  }
+
+  .subProgramList {
+    font-size: 12px;
+  }
+
+  .subDesignList {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .subList::before {
+    content: "-";
+    color: #CC146F;
+  }
 }
