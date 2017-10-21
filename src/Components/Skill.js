@@ -16,7 +16,7 @@ class Skill extends Component {
               </li>
               <li className="subList">
                 <a className="listName">CSS</a>
-                <ul>
+                <ul className="sub">
                   <li className="subProgramList">Sass</li>
                   <li className="subProgramList">SCSS</li>
                   <li className="subProgramList">BootStrap</li>
@@ -24,7 +24,7 @@ class Skill extends Component {
               </li>
               <li className="subList">
                 <a className="listName">Javascript</a>
-                <ul>
+                <ul className="sub">
                   <li className="subProgramList">jQuery</li>
                   <li className="subProgramList">React</li>
                   <li className="subProgramList">kintone API</li>
@@ -32,13 +32,13 @@ class Skill extends Component {
               </li>
               <li className="subList">
                 <a className="listName">Ruby</a>
-                <ul>
+                <ul className="sub">
                   <li className="subProgramList">Ruby on Rails</li>
                 </ul>
               </li>
               <li className="subList">
                 <a className="listName">Java</a>
-                <ul>
+                <ul className="sub">
                   <li className="subProgramList">Minecraft Forge API</li>
                 </ul>
               </li>
@@ -55,7 +55,7 @@ class Skill extends Component {
             <ul className="sub">
               <li className="subList">
                 <a className="listName">Adobe</a>
-                <ul>
+                <ul className="sub">
                   <li className="subDesignList">Illustrator</li>
                   <li className="subDesignList">Photoshop</li>
                   <li className="subDesignList">Lightroom</li>

@@ -8,7 +8,7 @@ li {
   margin-left: 10%;
 }
 
-@media only screen and (min-width: 641px) and (max-width: 960px) {
+@media screen and (min-width: 961px) {
   .skillTitle {
     font-size: 32px;
   }
@@ -44,9 +44,7 @@ li {
   }
 }
 
-
-
-@media screen and (min-width: 961px) {
+@media only screen and (min-width: 641px) and (max-width: 960px) {
   .skillTitle {
     font-size: 32px;
   }
@@ -94,9 +92,9 @@ li {
     /*マージンはなくなるので、注意！！*/
     font-size: 16px;
     display: table-cell;
-    /*width: 400px;
-    height: 100%;*/
-    padding-left: 5%;
+    width: 200px;
+    height: 100%;
+    padding-left: 7%;
   }
 
   .skillSubTitle {
@@ -104,8 +102,9 @@ li {
   }
 
   .sub {
-    padding-left: 0px;
+    padding-left: 10%;
   }
+
   .subList {
     margin-top: 15px;
   }
@@ -113,7 +112,7 @@ li {
   .listName {
     font-family: 'Candal', sans-serif;
     color: #CC146F;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .subProgramList {
