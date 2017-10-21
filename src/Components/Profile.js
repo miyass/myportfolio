@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 import '../Styles/Profile.css';
 
 class Profile extends Component {
+
   render() {
     return(
       <div className="profile">
         <h1 className="profileTitle">Profile</h1>
-        <h1 className="profileSubTitle">I like ... Camera</h1>
         <div className="profileContent">
           <p className="profileText">
           My name is Sohei Miyakura. I am a University student. My major is Marketing.
