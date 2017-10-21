@@ -5,7 +5,7 @@
 }
 
 @media screen and (min-width: 961px) {
-  .careerTitle {
+  .careerTitleTop {
     font-size: 32px;
   }
 
@@ -43,7 +43,7 @@
 }
 
 @media only screen and (min-width: 641px) and (max-width: 960px) {
-  .careerTitle {
+  .careerTitleTop {
     font-size: 32px;
   }
 
@@ -81,13 +81,8 @@
 }
 
 @media screen and (max-width: 640px) {
-
-  .careerTitle {
+  .carerrTitleTop {
     font-size: 25px;
-  }
-
-  .careerContent {
-    height: 100%;
   }
 
   .careerSubTitle {
@@ -109,6 +104,7 @@
 
   .companyDesc {
     font-size: 12px;
+    margin-left: 10px;
   }
 
   .more {
@@ -120,9 +116,9 @@
     font-size: 15px;
   }
 
-  .more:hover {
+  /*.more:hover {
     transition: background-color 0.8s;
     background-color: #42C5D8;
-  }
+  }*/
 
 }

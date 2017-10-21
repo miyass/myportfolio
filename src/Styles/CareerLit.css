@@ -5,36 +5,110 @@
   /*background-color: white;*/
 }
 
-.careerTitle {
-  font-size: 32px;
+@media screen and (min-width: 961px) {
+  .careerTitleLit {
+    font-size: 32px;
+  }
+
+  .litContent {
+    height: 100%;
+  }
+
+  .litLogo1 {
+    display: none;
+  }
+
+  .litSubTitle {
+    /*margin-left: 100px;*/
+    font-size: 32px;
+  }
+
+  .litLeftContent {
+    display: table-cell;
+    width: 40%;
+  }
+
+  .litRightContent {
+    position: relative;
+    display: table-cell;
+    padding-left: 100px;
+    width: 40%;
+  }
+
+  .litLogo2 {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+
 }
 
-.litContent {
-  height: 100%;
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+  .careerTitleLit {
+    font-size: 32px;
+  }
+
+  .litContent {
+    height: 100%;
+  }
+
+  .litLogo1 {
+    width: 300px;
+    height: 75px;
+    background-color: white;
+  }
+
+  .litSubTitle {
+    display: none;
+  }
+
+  .litLeftContent {
+    display: table-cell;
+    width: 40%;
+  }
+
+  .litRightContent {
+    display: none;
+  }
 }
 
-.litSubTitle {
-  /*margin-left: 100px;*/
-  font-size: 32px;
-}
+@media screen and (max-width: 640px) {
+  .careerTitleLit {
+    font-size: 25px;
+  }
 
-.litLeftContent {
-  display: table-cell;
-  width: 40%;
-}
+  .litContent {
+    height: 100%;
+  }
 
-.litRightContent {
-  position: relative;
-  display: table-cell;
-  padding-left: 100px;
-  width: 40%;
-}
+  .litLogo1 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+  }
 
-.litLogo {
-  width: 400px;
-  height: 100px;
-  background-color: white;
-  position: absolute;
-  top: 100px;
-  left: 100px;
+  .litSubTitle {
+    margin-left: 10px;
+    display: none;
+  }
+
+  .litLeftContent {
+    /*display: table-cell;*/
+    /*width: 40%;*/
+  }
+
+  .companyDesc {
+    font-size: 12px;
+  }
+
+  .litDetail {
+    padding-left: 0px;
+  }
+
+  .litRightContent {
+    display: none;
+  }
 }

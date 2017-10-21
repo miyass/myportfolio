@@ -7,7 +7,7 @@ class Career extends Component {
   render() {
     return(
       <div className="career">
-        <h1 className="careerTitle">Career</h1>
+        <h1 className="careerTitleTop">Career</h1>
         <div className="careerContent">
           <h2 className="careerSubTitle">Intern Experience</h2>
           <ul className="careerList">

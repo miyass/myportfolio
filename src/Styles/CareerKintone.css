@@ -5,35 +5,109 @@
   /*background-color: white;*/
 }
 
-.careerTitle {
-  font-size: 32px;
+@media screen and (min-width: 961px) {
+  .careerTitleKintone {
+    font-size: 32px;
+  }
+
+  .kintoneContent {
+    height: 100%;
+  }
+
+  .kintoneLogo1 {
+    display: none;
+  }
+
+  .kintoneSubTitle {
+    font-size: 32px;
+  }
+
+  .kintoneLeftContent {
+    display: table-cell;
+    width: 40%;
+  }
+
+  .kintoneRightContent {
+    position: relative;
+    display: table-cell;
+    padding-left: 100px;
+    width: 40%;
+  }
+
+  .kintoneLogo2 {
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
 }
 
-.kintoneContent {
-  height: 100%;
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+  .careerTitleKintone {
+    font-size: 32px;
+  }
+
+  .kintoneContent {
+    height: 100%;
+  }
+
+  .kintoneLogo1 {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+  }
+
+  .kintoneSubTitle {
+    display: none;
+  }
+
+  .kintoneLeftContent {
+    display: table-cell;
+    width: 40%;
+  }
+
+  .kintoneRightContent {
+    display: none;
+  }
 }
 
-.kintoneSubTitle {
-  font-size: 32px;
-}
+@media screen and (max-width: 640px) {
+  .careerTitleKintone {
+    font-size: 25px;
+  }
 
-.kintoneLeftContent {
-  display: table-cell;
-  width: 40%;
-}
+  .kintoneContent {
+    height: 100%;
+  }
 
-.kintoneRightContent {
-  position: relative;
-  display: table-cell;
-  padding-left: 100px;
-  width: 40%;
-}
+  .kintoneLogo1 {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+  }
 
-.kintoneLogo {
-  width: 400px;
-  height: 80px;
-  background-color: white;
-  position: absolute;
-  top: 100px;
-  left: 100px;
+  .kintoneSubTitle {
+    margin-right: 10px;
+    display: none;
+  }
+
+  .kintoneLeftContent {
+    display: table-cell;
+    width: 40%;
+  }
+
+  .kintoneDetail {
+    padding-left: 0px;
+  }
+
+  .companyDesc {
+    font-size: 12px;
+  }
+
+
+  .kintoneRightContent {
+    display: none;
+  }
 }
